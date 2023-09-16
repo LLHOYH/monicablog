@@ -1,0 +1,5 @@
+.image_section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

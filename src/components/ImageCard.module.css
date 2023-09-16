@@ -1,0 +1,25 @@
+.image_card {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+.image_card::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: gray;
+  opacity: 0.18;
+}
+
+@media (width<630px) {
+  .image_card {
+    background-repeat: no-repeat;
+    max-height: 33vh;
+  }
+}

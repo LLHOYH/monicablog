@@ -1,0 +1,13 @@
+.album_button {
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+}
+
+.album_button:hover,
+.album_button:active {
+  color: var(--tint1-white);
+  border: none;
+}

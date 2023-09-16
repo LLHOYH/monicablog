@@ -1,0 +1,30 @@
+/* 
+
+it's parent is a div, using GRID of 3 x 3
+
+I want to place content at the bottom rows of the grid, span 3 columns 
+
+so it is column 1 / -1, row 3 /4
+*/
+
+.commentContent {
+  font-size: 2.8rem;
+  font-weight: bold;
+  opacity: 0.7;
+  word-wrap: break-word;
+
+  color: #fff;
+  max-width: 80%;
+
+  grid-row: 3;
+  justify-self: center;
+  align-self: start;
+
+  mix-blend-mode: exclusion;
+}
+
+@media (width<630px) {
+  .commentContent {
+    font-size: 1.2rem;
+  }
+}
